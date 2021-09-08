@@ -58,4 +58,5 @@ public class Instructor extends Person {
     public void setCourses(List<Course> courses) {
         this.courses = courses;
     }
+
 }
