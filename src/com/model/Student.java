@@ -7,9 +7,15 @@ public class Student extends Person {
     private Department department;
     private List<Course> courses;
 
+    public Student() {
+    }
+
+    public Student(String name, int age) {
+        super(name, age);
+    }
+
     public Student(int id, String name, int age, String address, Department department) {
         super(id, name, age, address);
-        this.department = department;
     }
 
     public Department getDepartment() {
